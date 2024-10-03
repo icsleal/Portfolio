@@ -108,11 +108,13 @@ a {
 .lists-contact:link,
 .linkedin::before {
   content: url(assets/icons8-linkedin.svg);
+  color: aliceblue;
 }
 
 .lists-contact:link,
 .git::before {
   content: url(/assets/icons8-github.svg);
+  color: aliceblue;
 }
 
 .lists-contact:link,
