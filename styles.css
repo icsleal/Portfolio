@@ -117,12 +117,6 @@ a {
   color: #ffffff;
 }
 
-.lists-contact:link,
-.e-mail::before {
-  content: url(assets/mail-142.svg);
-  color: #ffffff;
-}
-
 .lists-contact .linkedin:hover {
   background-color: rgb(214, 170, 212);
   padding-top: 40px;
