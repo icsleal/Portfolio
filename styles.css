@@ -108,19 +108,19 @@ a {
 .lists-contact:link,
 .linkedin::before {
   content: url(assets/icons8-linkedin.svg);
-  color: aliceblue;
+  color: #ffffff;
 }
 
 .lists-contact:link,
 .git::before {
   content: url(/assets/icons8-github.svg);
-  color: aliceblue;
+  color: #ffffff;
 }
 
 .lists-contact:link,
 .e-mail::before {
   content: url(assets/mail-142.svg);
-  color: aliceblue;
+  color: #ffffff;
 }
 
 .lists-contact .linkedin:hover {
