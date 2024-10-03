@@ -107,17 +107,17 @@ a {
 
 .lists-contact:link,
 .linkedin::before {
-  content: url(/image/icons8-linkedin.svg);
+  content: url(assets/icons8-linkedin.svg);
 }
 
 .lists-contact:link,
 .git::before {
-  content: url(/image/icons8-github.svg);
+  content: url(/assets/icons8-github.svg);
 }
 
 .lists-contact:link,
 .e-mail::before {
-  content: url(/image/mail-142.svg);
+  content: url(assets/mail-142.svg);
   color: aliceblue;
 }
 
