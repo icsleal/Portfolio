@@ -117,9 +117,26 @@ a {
 
 .lists-contact:link,
 .e-mail::before {
-  content: url(/image/icons8-at-sign-96.png);
+  content: url(/image/mail-142.svg);
+  color: aliceblue;
 }
 
+.lists-contact .linkedin:hover {
+  background-color: rgb(214, 170, 212);
+  padding-top: 40px;
+  border-radius: 60px;
+}
+
+.lists-contact .git:hover {
+  background-color: rgb(214, 170, 212);
+  padding-top: 60px;
+  border-radius: 60px;
+}
+
+.lists-contact .e-mail:hover {
+  background-color: rgb(214, 170, 212);
+  border-radius: 60px;
+}
 /**Footer contendo meu @ **/
 #footer {
   background-color: rgb(214, 170, 212);
