@@ -54,41 +54,13 @@ a {
 }
 
 /**Resposividade da project-project**/
-@media screen and (min-width: 300px) and (max-width: 1900px) {
-  .project-project {
-    width: 50vh;
-    padding-top: 30px;
-    padding-bottom: 20px;
-  }
-}
-@media screen and (min-width: 300px) and (max-width: 1900px) {
-  #projects {
-    position: static;
-    padding: 0;
-    width: 100%;
-  }
-}
 
-@media screen and (min-width: 300px) and (max-width: 1900px) {
-  footer p {
-    padding-left: 34vh;
-    position: static;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 1900px) {
-  body {
-    padding: 0;
-    position: static;
-  }
-}
 /**Section welcome-section**/
 
 .welcome-section {
   display: flex;
   text-align: center;
   flex-direction: column;
-  text-align: center;
   padding-top: 20vh;
   padding-bottom: 3vh;
 }
