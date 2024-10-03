@@ -1,0 +1,160 @@
+/**Seletor do site**/
+* {
+  margin: 0;
+}
+
+/**Corpo do site**/
+body {
+  background-color: rgb(228, 137, 216);
+  font-family: Times, New Roman, Georgia, Garamond;
+  color: white;
+  font-size: 25px;
+}
+
+/**Barra de navegação**/
+.nav {
+  left: 0px;
+  background-color: rgb(214, 170, 212);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0px;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+/**Navegação da lista */
+.nav-list,
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--color, white);
+  cursor: pointer;
+  transition: inherit;
+}
+
+.nav-list a:hover {
+  color: rgb(228, 137, 216);
+}
+
+/**Projeto**/
+#projects {
+  background-color: rgb(214, 170, 212);
+  position: static;
+}
+.project-project {
+  width: 80vh;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  display: ruby;
+  padding-left: 100px;
+}
+
+/**Resposividade da project-project**/
+@media screen and (min-width: 300px) and (max-width: 1900px) {
+  .project-project {
+    width: 50vh;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 1900px) {
+  #projects {
+    position: static;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1900px) {
+  footer p {
+    padding-left: 34vh;
+    position: static;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1900px) {
+  body {
+    padding: 0;
+    position: static;
+  }
+}
+/**Section welcome-section**/
+
+.welcome-section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20vh;
+  padding-bottom: 3vh;
+}
+
+#welcome-section p {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+/**Contato do projeto*/
+#project-contact {
+  height: 50vh;
+}
+.contact {
+  text-align: center;
+}
+/**Sub Titulo do projeto*/
+#project-contact h2 {
+  padding-top: 20vh;
+}
+/**Paragrafo do projeto*/
+#project-contact p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/**Links dos contatos**/
+
+#redes-sociais {
+  padding-bottom: 10vh;
+}
+.redes-sociais li {
+  display: inline-block;
+}
+.redes-sociais ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.lists-contact:link,
+.linkedin::before {
+  content: url(/image/icons8-linkedin.svg);
+}
+
+.lists-contact:link,
+.git::before {
+  content: url(/image/icons8-github.svg);
+}
+
+.lists-contact:link,
+.e-mail::before {
+  content: url(/image/icons8-at-sign-96.png);
+}
+
+/**Footer contendo meu @ **/
+#footer {
+  background-color: rgb(214, 170, 212);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/** Pragrafo do footer**/
+#footer p {
+  padding-left: 89%;
+}
