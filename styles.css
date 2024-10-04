@@ -119,7 +119,7 @@ a {
 
 .lists-contact:link,
 .e-mail::before {
-  content: url(/assets/mail-142.svg);
+  content: url(assets/mail-142.svg);
   color: #ffffff;
 }
 
