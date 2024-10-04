@@ -102,6 +102,7 @@ a {
 }
 .redes-sociais li {
   display: inline-block;
+  padding-top: 10px;
 }
 .redes-sociais ul {
   list-style: none;
@@ -118,7 +119,7 @@ a {
 
 .lists-contact:link,
 .e-mail::before {
-  content: url(assets/icons8-e-mail-48.png);
+  content: url(/assets/mail-142.svg);
   color: #ffffff;
 }
 
