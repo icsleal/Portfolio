@@ -113,7 +113,7 @@ a {
 
 .lists-contact:link,
 .git::before {
-  content: url(/assets/icons8-github.svg);
+  content: url(assets/icons8-github.svg);
   color: #ffffff;
 }
 
