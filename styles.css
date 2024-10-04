@@ -20,6 +20,11 @@ body {
   width: 100%;
   top: 0px;
   justify-content: flex-end;
+  background: linear-gradient(
+    100deg,
+    rgba(234, 12, 201, 0.8),
+    rgba(77, 236, 164, 0) 100%
+  );
 }
 
 .nav-list {
@@ -113,7 +118,7 @@ a {
 
 .lists-contact:link,
 .e-mail::before {
-  content: url(assets/mail-142.svg);
+  content: url(assets/icons8-e-mail-48.png);
   color: #ffffff;
 }
 
@@ -125,27 +130,36 @@ a {
 
 .lists-contact .linkedin:hover {
   background-color: rgb(214, 170, 212);
-  padding-top: 40px;
+  padding-top: 30px;
   border-radius: 60px;
+  opacity: 1;
 }
 
 .lists-contact .git:hover {
   background-color: rgb(214, 170, 212);
-  padding-top: 60px;
+  padding-top: 50px;
   border-radius: 60px;
 }
 
 .lists-contact .e-mail:hover {
-  background-color: rgb(214, 170, 212);
+  background: rgb(214, 170, 212);
   border-radius: 60px;
 }
 /**Footer contendo meu @ **/
 #footer {
   background-color: rgb(214, 170, 212);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
 }
 /** Pragrafo do footer**/
 #footer p {
+  padding-top: 20px;
   padding-left: 89%;
+  background: linear-gradient(
+    100deg,
+    rgba(234, 12, 201, 0.8),
+    rgba(77, 236, 164, 0) 100%
+  );
+}
+p {
+  padding-bottom: 10px;
 }
