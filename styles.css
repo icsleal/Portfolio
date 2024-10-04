@@ -112,14 +112,14 @@ a {
 }
 
 .lists-contact:link,
-.git::before {
-  content: url(assets/icons8-github.svg);
+.e-mail::before {
+  content: url(assets/mail-142.svg);
   color: #ffffff;
 }
 
 .lists-contact:link,
-.e-mail::before {
-  content: url(assets/mail-142.svg);
+.git::before {
+  content: url(assets/icons8-github.svg);
   color: #ffffff;
 }
 
