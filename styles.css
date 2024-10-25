@@ -5,25 +5,22 @@
 
 /**Corpo do site**/
 body {
-  background-color: rgb(228, 137, 216);
   font-family: Times, New Roman, Georgia, Garamond;
-  color: white;
-  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  background: linear-gradient(100deg, #000000, #878e92);
 }
 
 /**Barra de navegação**/
 .nav {
-  left: 0px;
-  background-color: rgb(214, 170, 212);
   position: fixed;
   display: flex;
   width: 100%;
-  top: 0px;
   justify-content: flex-end;
   background: linear-gradient(
-    100deg,
-    rgba(234, 12, 201, 0.8),
-    rgba(77, 236, 164, 0) 100%
+    20deg,
+    rgba(31, 30, 31, 0.8),
+    rgba(42, 39, 41, 0) 100%
   );
 }
 
@@ -36,130 +33,154 @@ body {
 a {
   text-decoration: none;
   padding: 10px;
-  color: var(--color, white);
+  color: var(--color);
+  font-size: 20px;
   cursor: pointer;
-  transition: inherit;
 }
 
 .nav-list a:hover {
-  color: rgb(228, 137, 216);
+  color: rgba(31, 30, 31, 0.8);
 }
 
-/**Projeto**/
-#projects {
-  background-color: rgb(214, 170, 212);
+/**Foto do perfil**/
+#foto {
+  width: 10rem;
+  border-radius: 30px 70px;
+  box-shadow: 2px 2px 3px 3px white;
+  display: flex;
   position: static;
+  margin-top: -10rem;
+  margin-left: 57rem;
+  margin-bottom: 20vh;
 }
-.project-project {
-  width: 80vh;
-  padding-top: 100px;
-  padding-bottom: 40px;
-  display: ruby;
-  padding-left: 100px;
-}
-
-/**Resposividade da project-project**/
 
 /**Section welcome-section**/
 
 .welcome-section {
   display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding-top: 20vh;
+  position: static;
+  padding-left: 20rem;
+  padding-top: 21vh;
   padding-bottom: 3vh;
+  font-size: 4rem;
 }
 
 #welcome-section p {
   display: flex;
-  text-align: center;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 10vh;
+  text-align: left;
+  padding-left: 20rem;
+  font-size: 20px;
 }
 
-/**Contato do projeto*/
-#project-contact {
-  height: 50vh;
+#welcome-section h2 {
+  font-size: 30px;
+  padding-left: 24rem;
+  padding-bottom: 10px;
 }
-.contact {
+/**Sobre minha carreira**/
+#sobre {
   text-align: center;
+  font-size: 20px;
 }
-/**Sub Titulo do projeto*/
-#project-contact h2 {
-  padding-top: 20vh;
+
+/**Projeto**/
+#projects {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
 }
-/**Paragrafo do projeto*/
-#project-contact p {
-  padding-top: 20px;
-  padding-bottom: 40px;
+.project-project,
+#profile-link {
+  width: 50vh;
+  padding-bottom: 60px;
+}
+
+#projects img:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  position: static;
+  display: inline-block;
 }
 
 /**Links dos contatos**/
 
 #redes-sociais {
   padding-bottom: 10vh;
+  padding-top: 10vh;
 }
+
 .redes-sociais li {
   display: inline-block;
 }
 .redes-sociais ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+  text-align: center;
+  padding-right: 40px;
 }
 
 .lists-contact:link,
 .linkedin::before {
-  content: url(assets/icons8-linkedin.svg);
-  color: #ffffff;
-}
-
-.lists-contact:link,
-.e-mail::before {
-  content: url(assets/icons8-at-sign-96.png);
-  color: #ffffff;
+  content: url(assets/icons8-linkedin-circled-40.png);
 }
 
 .lists-contact:link,
 .git::before {
-  content: url(assets/icons8-github.svg);
-  color: #ffffff;
+  content: url(assets/icons8-github-40.png);
+}
+
+.lists-contact:link,
+.e-mail::before {
+  content: url(assets/icons8-envelope-circulado-40.png);
 }
 
 .lists-contact .linkedin:hover {
-  background-color: rgb(214, 170, 212);
-  padding-top: 30px;
-  border-radius: 60px;
+  background-color: rgba(31, 30, 31, 0.8);
+  padding-top: 35px;
+  border-radius: 30px;
   opacity: 1;
 }
 
 .lists-contact .git:hover {
-  background-color: rgb(214, 170, 212);
-  padding-top: 50px;
-  border-radius: 60px;
+  background-color: rgba(31, 30, 31, 0.8);
+  padding-top: 35px;
+  border-radius: 30px;
 }
 
 .lists-contact .e-mail:hover {
-  background: rgb(214, 170, 212);
-  border-radius: 60px;
+  background-color: rgba(31, 30, 31, 0.8);
+  padding-top: 35px;
+  border-radius: 30px;
+}
+
+/**Habilidades**/
+#softskills {
+  text-align: center;
+}
+
+.skills {
+  padding-top: 50px;
+}
+.skills,
+img {
+  text-align: center;
 }
 /**Footer contendo meu @ **/
 #footer {
-  background-color: rgb(214, 170, 212);
   padding-top: 0px;
+  background: linear-gradient(
+    20deg,
+    rgba(31, 30, 31, 0.8),
+    rgba(42, 39, 41, 0) 100%
+  );
 }
 /** Pragrafo do footer**/
 #footer p {
   padding-top: 20px;
-  padding-left: 89%;
-  background: linear-gradient(
-    100deg,
-    rgba(234, 12, 201, 0.8),
-    rgba(77, 236, 164, 0) 100%
-  );
-}
-p {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
 }

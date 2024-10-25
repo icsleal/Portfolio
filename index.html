@@ -7,33 +7,44 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <script src="/index.js"></script>
     <main>
       <!--Links principais-->
       <nav id="navbar" class="nav">
         <ul class="nav-list">
-          <li><a href="#Sobre">Sobre</a></li>
-          <li><a href="#">Trabalhar</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#softskills">Técnologias</a></li>
+          <li><a href="#redes-sociais">Contato</a></li>
         </ul>
       </nav>
+
       <!--Boas vindas-->
       <section id="welcome-section">
-        <h1 class="welcome-section">Olá, sou a Ingrid</h1>
-        <p>uma desenvolvedora web</p>
+           <h1 class="welcome-section">Olá, sou a Ingrid</h1>
+            <h2>Desenvolvedora Front-End</h2>
+           <img src="/assets/1668466617822.jpg" alt="Minha foto" id="foto">
       </section>
-      <!---->
-      <section id="projects">
-        <div class="project-tile">
-          <a
-            href="https://icsleal.github.io/discover/"
-            target="_blank"
-            id="profile-link"
-            ><img
+     
+      <!--Sobre minha trajetoria na técnologia-->
+      <section>
+        <p id="sobre"> Uma jovem entusiasta de tecnologia e inovação.<br>
+          Meu portfolio mostra alguns projetos que venho desenvolvendo,
+          <br>estou em transição de carreira, porém a área da tecnologia me mostrou um mundo novo, onde eu mesmo poderia esta <br> desenvolvendo meu próprio software no mundo do front-end, o front é simplemente apaixonante<br> venho bucando aprender JavaScript e React. </p>
+      </section>
+
+      <!--Meus projetos-->
+ <section id="projects">
+      <div class="project-tile">
+               <a
+                 href="https://icsleal.github.io/discover/"
+                  target="_blank"
+                   id="profile-link"
+                ><img
               src="assets/discovery.png"
               alt="Site da discovery"
               class="project-project"
-          /></a>
-          <a
+             /></a>
+            <a
             href="https://icsleal.github.io/Tabuada/"
             target="_blank"
             id="profile-link"
@@ -50,17 +61,21 @@
               src="assets/Wikipedia.png"
               alt="Wikipedia"
               class="project-project"
-          /></a>
-        </div>
-      </section>
-      <!--Contatos-->
-      <section id="project-contact">
-        <div class="contact">
-          <h2>Sejam Bem-Vindos</h2>
-          <p>Meu portfolio mostra alguns projetos que venho desenvolvendo.</p>
-        </div>
-      </section>
-      <section id="redes-sociais">
+      /></a>
+     </div>
+  </section>
+
+      <!--Minhas habilidade-->
+  <section id="softskills">
+            <h3 id=>Habilidades</h3>
+            <img src="assets/icons8-html5-60.png" alt="" class="skills" onclick="html">
+            <img src="assets/icons8-css-60.png" class="skills">
+            <img src="assets/icons8-javascript-50.png" alt="" class="skills">
+            <img src="assets/icons8-git-60.png" alt="" class="skills">
+  </section>
+
+     <!--Rede de contato/ redes sociais-->
+ <section id="redes-sociais">
         <div class="redes-sociais">
           <ul class="lists-contact">
             <li>
@@ -82,11 +97,11 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!--Footer com o @-->
-      <footer id="footer">
-        <p>@IngridLeal</p>
-      </footer>
+  </section>
+      <!--Footer com os direitos autorias do site-->
+  <footer id="footer">
+        <p>© Copyright 2024. Vyrobil Ingrid Leal</p>
+  </footer>
     </main>
   </body>
 </html>
