@@ -17,11 +17,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  background: linear-gradient(
-    20deg,
-    rgba(31, 30, 31, 0.8),
-    rgba(42, 39, 41, 0) 100%
-  );
+  background: black;
 }
 
 .nav-list {
@@ -207,11 +203,7 @@ img {
     display: flex;
     width: 100%;
     justify-content: center;
-    background: linear-gradient(
-      20deg,
-      rgba(31, 30, 31, 0.8),
-      rgba(42, 39, 41, 0) 100%
-    );
+    background: black;
   }
 }
 /*Boas vindas*/
