@@ -184,3 +184,107 @@ img {
   font-size: 20px;
   text-align: center;
 }
+/*Seletor do projeto*/
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+/*Corpo do projeto*/
+@media screen and (max-width: 600px) {
+  body {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    background: linear-gradient(100deg, #000000, #878e92);
+  }
+}
+
+/*Links principais*/
+@media screen and (max-width: 600px) {
+  .nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(
+      20deg,
+      rgba(31, 30, 31, 0.8),
+      rgba(42, 39, 41, 0) 100%
+    );
+  }
+}
+/*Boas vindas*/
+@media screen and (max-width: 400px) {
+  #welcome-section {
+    position: static;
+    padding-top: 2vh;
+    padding-bottom: 10rem;
+  }
+  #welcome-section h2 {
+    font-size: 18px;
+    padding-left: 3rem;
+    padding-top: 1px;
+    position: absolute;
+    display: flex;
+  }
+}
+
+/*Boas vindas*/
+@media screen and (max-width: 400px) {
+  .welcome-section {
+    display: flex;
+    position: static;
+    font-size: 24px;
+    padding-left: 3rem;
+  }
+
+  /*Minha foto*/
+  @media screen and (max-width: 400px) {
+    #foto {
+      width: 90px;
+      border-radius: 19px 49px;
+      box-shadow: 2px 2px 3px 3px white;
+      display: flex;
+      position: absolute;
+      margin-top: -17%;
+      margin-left: 70%;
+      margin-bottom: 20vh;
+    }
+  }
+}
+/*Sobre minha trajetoria na técnologia*/
+@media screen and (max-width: 400px) {
+  #sobre {
+    text-align: center;
+    font-size: 16px;
+    width: 20rem;
+    position: relative;
+    display: flex;
+    padding-left: 2rem;
+  }
+}
+/*Meus projetos*/
+@media screen and (max-width: 400px) {
+  .project-project,
+  #profile-link {
+    width: 40vh;
+    padding-bottom: 30px;
+  }
+}
+
+/*Minhas habilidade */
+@media screen and (max-width: 400px) {
+  #softskills h3 {
+    font-size: 20px;
+  }
+}
+
+/*Rede de contato/ redes sociais */
+@media screen and (max-width: 400px) {
+  .redes-sociais ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 6px;
+  }
+}
